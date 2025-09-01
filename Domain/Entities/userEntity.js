@@ -1,6 +1,6 @@
 const { DataTypes } = require("sequelize");
 
-const sequelize = require("../../Infrastructure/Persistence/orm")
+const sequelize = require("../../infrastructure/persistence/orm")
 
 const userEntity = sequelize.define(
     "users", 

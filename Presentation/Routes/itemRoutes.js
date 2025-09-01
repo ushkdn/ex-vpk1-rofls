@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const authMiddleware = require("../Middlewares/AuthMiddleware");
-const itemController = require("../Controllers/itemController");
+const authMiddleware = require("../middlewares/AuthMiddleware");
+const itemController = require("../controllers/itemController");
 
 router.get("/", authMiddleware, itemController.getItems);
 router.post("/", authMiddleware, itemController.addItem);

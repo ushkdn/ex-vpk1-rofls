@@ -1,4 +1,4 @@
-const { itemEntity, userEntity } = require("../../Domain/Entities");
+const { itemEntity, userEntity } = require("../../domain/entities");
 const { v4: uuidv4 } = require("uuid");
 
 exports.getItems = async (req, res) => 
