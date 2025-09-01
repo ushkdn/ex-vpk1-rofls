@@ -1,4 +1,4 @@
-const orm = require("../../infrastructure/persistence/orm");
+const orm = require("./orm");
 const userEntity = require("./UserEntity");
 const itemEntity = require("./ItemEntity");
 

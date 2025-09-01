@@ -1,4 +1,4 @@
-const { userEntity } = require("../../domain/entities")
+const { userEntity } = require(".")
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const { v4: uuidv4 } = require("uuid");

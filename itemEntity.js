@@ -1,5 +1,5 @@
 const { DataTypes } = require("sequelize");
-const Orm = require("../../infrastructure/persistence/orm");
+const Orm = require("./orm");
 const userEntity = require("./userEntity");
 
 const itemEntity = Orm.define(
