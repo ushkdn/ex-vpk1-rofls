@@ -5,8 +5,8 @@ const orm = new Sequelize(
     "user", 
     "password", 
     {
-        host: "localhost",
-        port: 5435,
+        host: "db",
+        port: 5432,
         dialect: "postgres",
         logging: false,
         

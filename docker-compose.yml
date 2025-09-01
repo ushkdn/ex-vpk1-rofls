@@ -1,4 +1,16 @@
 services:
+
+  api:
+    build: .
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
+
+
   postgresql:
     image: postgres:17
     container_name: db

@@ -1,0 +1,31 @@
+# Node modules — всегда исключай, ставится заново внутри контейнера
+node_modules
+
+# Логи
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Кеши
+*.log
+*.tmp
+*.cache
+
+# Git
+.git
+.gitignore
+
+# Секреты и конфиги
+.env
+.env.*
+*.pem
+
+# Docker файлы (если не нужно копировать)
+Dockerfile
+docker-compose.yml
+
+# IDE и редакторы
+.vscode
+.idea
+*.swp
+.DS_Store
